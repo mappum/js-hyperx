@@ -1,6 +1,6 @@
 {
-  "name": "atom-js-hyperx",
-  "version": "1.0.0",
+  "name": "js-hyperx",
+  "version": "0.0.0",
   "description": "hyperx syntax highlighting support",
   "engines": {
     "atom": "*"
