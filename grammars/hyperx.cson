@@ -4,7 +4,7 @@
 'patterns': [
   {
     'name': 'string.other.hx.js'
-    'begin': '[^A-Fa-f0-9_\\-.]*hx`'
+    'begin': '[^A-Fa-f0-9_\\-^]hx`'
     'end': '`'
     'patterns': [
       {
