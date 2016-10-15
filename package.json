@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mappum/atom-js-hyperx.git"
+    "url": "git+https://github.com/mappum/js-hyperx.git"
   },
   "bugs": {
-    "url": "https://github.com/mappum/atom-js-hyperx/issues"
+    "url": "https://github.com/mappum/js-hyperx/issues"
   },
-  "homepage": "https://github.com/mappum/atom-js-hyperx#readme"
+  "homepage": "https://github.com/mappum/js-hyperx#readme"
 }
