@@ -31,10 +31,16 @@
               {
                 'include': 'source.js'
               }
+              {
+                'include': 'source.hx'
+              }
             ]
           }
           {
             'include': 'source.js'
+          }
+          {
+            'include': 'source.hx'
           }
         ]
       }
