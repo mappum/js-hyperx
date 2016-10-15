@@ -1,0 +1,8 @@
+{
+  "name": "atom-js-hyperx",
+  "version": "0.0.0",
+  "description": "hyperx syntax highlighting support",
+  "engines": { "atom": "*" },
+  "author": "Matt Bell <mappum@gmail.com>",
+  "license": "MIT"
+}

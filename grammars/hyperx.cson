@@ -1,0 +1,43 @@
+'scopeName': 'source.hx'
+'name': 'hyperx'
+'injectionSelector': 'source.js'
+'patterns': [
+  {
+    'name': 'string.other.hx.js'
+    'begin': '[^A-Fa-f0-9_\\-.]*hx`'
+    'end': '`'
+    'patterns': [
+      {
+        'include': 'text.html.basic'
+      }
+      {
+        'begin': '\\$\\{'
+        'captures':
+          '0':
+            'name': 'punctuation.section.embedded.js'
+        'end': '\\}'
+        'name': 'source.js.embedded.source'
+        'patterns': [
+          {
+            'begin': '{'
+            'beginCaptures':
+              '0':
+                'name': 'meta.brace.curly.js'
+            'end': '}'
+            'endCaptures':
+              '0':
+                'name': 'meta.brace.curly.js'
+            'patterns': [
+              {
+                'include': 'source.js'
+              }
+            ]
+          }
+          {
+            'include': 'source.js'
+          }
+        ]
+      }
+    ]
+  }
+]
