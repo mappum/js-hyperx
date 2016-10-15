@@ -2,7 +2,21 @@
   "name": "atom-js-hyperx",
   "version": "0.0.0",
   "description": "hyperx syntax highlighting support",
-  "engines": { "atom": "*" },
+  "engines": {
+    "atom": "*"
+  },
   "author": "Matt Bell <mappum@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mappum/atom-js-hyperx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mappum/atom-js-hyperx/issues"
+  },
+  "homepage": "https://github.com/mappum/atom-js-hyperx#readme"
 }
